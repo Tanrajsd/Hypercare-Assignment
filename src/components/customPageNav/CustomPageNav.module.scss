@@ -1,0 +1,33 @@
+@import "../../variables";
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.button {
+  width: 100px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  color: white;
+  background-color: $HC_BLUE;
+}
+
+.leftButton {
+  margin-right: 10px;
+}
+
+.button:hover:not(:disabled) {
+  background-color: black;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

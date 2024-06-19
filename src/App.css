@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 0.5px;
+  overscroll-behavior: none;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* NOTE: Text styling was not fleshed out - requires branding guidelines */
+p {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito Sans", sans-serif;
+}
